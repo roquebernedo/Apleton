@@ -24,11 +24,18 @@
             @media (max-width: 1280px) {
                 top: 57%;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 1000px) {
+                padding: 0 20px 0 10px;
+            }
+            @media (max-width: 850px) {
+                top: 50%;
+            }
+            @media (max-width: 700px) {
+                top: 44%;
                 font-size: 100px;
             }
             @media (max-width: 556px) {
-                top: 52%;
+                top: 40%;
                 font-size: 90px;
             }
         }
@@ -125,6 +132,14 @@
                 }
                 @media (max-width: 556px) {
                     left: 110px;
+                    height: 200px;
+                }
+                @media (max-width: 460px) {
+                    left: 90px;
+                    height: 200px;
+                }
+                @media (max-width: 375px) {
+                    left: 70px;
                     height: 200px;
                 }
             }
@@ -400,8 +415,11 @@
                 @media (max-width: 1229px) {
                     width: 30%;
                 }
+                @media (max-width: 755px) {
+                    width: 50%;
+                }
                 @media (max-width: 556px) {
-                    width: 40%;
+                    width: 50%;
                 }
 
                 .icons{
@@ -439,6 +457,9 @@
                 max-width: 70%;
                 @media (max-width: 1229px) {
                     width: 30%;
+                }
+                @media (max-width: 1024px) {
+                    width: 60%;
                 }
                 @media (max-width: 556px) {
                     width: 70%;
@@ -522,11 +543,9 @@
             line-height: 1.6;
             max-width: 90%;
             @media (max-width: 1047px) {
-                font-size: 16px;
-            }
-            @media (max-width: 1024px) {
                 flex-direction: column;
                 gap: 30px;
+                font-size: 16px;
             }
             @media (max-width: 556px) {
                 margin-top: 10px;
@@ -538,6 +557,9 @@
                 display: flex;
                 flex-direction: column;
                 width: 30%;
+                @media (max-width: 728px) {
+                    width: 50%;
+                }
 
                 .foot-link{
                     text-decoration: none;

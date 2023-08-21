@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+    .up-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 25px;
+        z-index: 1000;
+        .left-header{
+            display: flex;
+            align-items: center;
+            
+
+            .link{
+                display: flex;
+                font-size: 20px;
+                padding: 0 20px 0 20px;
+                text-decoration: none;
+                color: black;
+                font-weight: 500;
+                @media (max-width: 1196px) {
+                    font-size: 16px;
+                }
+            }
+
+            .logo{
+                display: flex;
+                font-size: 20px;
+                padding: 0 20px 0 20px;
+                text-decoration: none;
+                color: black;
+                font-weight: 500;
+                @media (max-width: 1196px) {
+                    display: block;
+                }
+            }
+
+            .menu-button {
+                display: none; 
+              }
+
+            .more{
+                color: #ff764d;
+            }
+
+            @media (max-width: 1029px) {
+
+                .left-header{
+                    position: fixed;
+                    z-index: 9999;
+                }
+                .link {
+                  display: none; 
+                }
+              
+                .menu-button {
+                 
+                  display: flex;
+                  align-items: center;
+                  
+                  gap: 5px;
+                  font-size: 18px;
+                }
+
+                .arrow{
+                    font-size: 10px;
+                }
+                
+                .menu-responsive{
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    
+                    display: flex;
+                    width: 100%;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 7px;
+                    
+                    background-color: white;
+                    font-size: 30px;
+                    z-index: 9999;
+                    transition: left 1.5s;
+
+                    .link-responsive{
+                        margin-left: 40px;
+                        text-decoration: none;
+                        margin-bottom: 8px;
+                        font-size: 20px;
+                        color: #606770;
+                        font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+                    }
+
+                    .logo{
+                        display: flex;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                        .div-logo{
+                            display: flex;
+                            padding: 25px;
+                            width: 100%;
+
+                            .menu-arrow{
+                                display: flex;
+                                padding: 0 20px 0 20px;
+                                font-size: 18px;
+                                align-items: center;
+                                gap: 5px;
+                                margin-top: 2px;
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+        }
+
+        .right-header{
+            .link-right{
+                text-decoration: none;
+            }
+
+            @media (max-width: 1029px) {
+                display: none;
+
+                
+            }
+
+            .for-free{
+                color: #2525ce;
+                font-size: 20px;
+                padding: 0 20px 0 20px;
+                @media (max-width: 1196px) {
+                    font-size: 16px;
+                }
+            }
+
+            .log-or-register{
+                color: black;
+                font-size: 16px;
+                @media (max-width: 1196px) {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .down-header{
+        .second-header{
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            padding: 25px;
+            
+            .li{
+                padding: 0 20px 0 20px;
+                text-decoration: none;
+                color: black;
+            }
+
+            .about{
+                color: #ff764d;
+            }
+        }
+    }
+}

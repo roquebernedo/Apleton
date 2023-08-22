@@ -32,7 +32,7 @@ const Home = () => {
     <div className='home'>
         <div className='ableton'>
             <img alt='' className='imgableton' src={imageSrc} />
-            <div className='text'>Apleton</div>
+            <div className='text'>Capleton</div>
         </div>
         <div className='unique'>
             <div className='live-push'>

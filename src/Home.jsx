@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Styles/Home.scss"
 import { Link } from 'react-router-dom'
 import { BiLogoFacebook } from "react-icons/bi"
@@ -7,16 +7,15 @@ import Select from 'react-select'
 
 const Home = () => {
 
-  const [imageSrc, setImageSrc] = useState(require('./Images/img1.jpg'))
-  const [imageSrc2, setImageSrc2] = useState(require('./Images/img2.jpg'))
-  const [imageSrc3, setImageSrc3] = useState(require('./Images/img3.jpg'))
-  const [imageSrc4, setImageSrc4] = useState(require('./Images/img4.jpg'))
-  const [imageSrc5, setImageSrc5] = useState(require('./Images/img5.jpg'))
-  const [imageSrc6, setImageSrc6] = useState(require('./Images/img6.jpg'))
-  const [imageSrc7, setImageSrc7] = useState(require('./Images/img7.jpg'))
-  const [imageSrc8, setImageSrc8] = useState(require('./Images/img8.jpg'))
-  const [imageSrc9, setImageSrc9] = useState(require('./Images/img9.jpg'))
-  const [imageSrc10, setImageSrc10] = useState(require('./Images/img10.jpg'))
+  const imageSrc = require('./Images/img1.jpg')
+  const imageSrc2 = require('./Images/img2.jpg')
+  const imageSrc3 = require('./Images/img3.jpg')
+  const imageSrc4 = require('./Images/img4.jpg')
+  const imageSrc5 = require('./Images/img5.jpg')
+  const imageSrc6 = require('./Images/img6.jpg')
+  const imageSrc7 = require('./Images/img7.jpg')
+  const imageSrc8 = require('./Images/img8.jpg')
+  const imageSrc9 = require('./Images/img9.jpg')
 
   const options = [
     {value: "English", label: "English"},
@@ -69,8 +68,8 @@ console.log("Altura de la pantalla: " + screenHeight);
         <div className='why-video'>
             <div className='why-frame'>
                 <iframe width="775" height="425" src="https://www.youtube.com/embed/mpOai5AlO2s" title="YouTube video player"
-                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen>
+                 frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen>
                 </iframe>
             </div>
             <div className='juanpe'>
@@ -220,7 +219,7 @@ console.log("Altura de la pantalla: " + screenHeight);
                 </div>
                 <div className='berlin'>
                     <div>Made in Peru</div>
-                    <svg role="img" aria-labelledby="logo" class="main-nav__logo__image" xmlns="http://www.w3.org/2000/svg" width="45" height="21" viewBox="0 0 45 21"><title id="logo">Ableton Homepage</title><path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path></svg>
+                    <svg role="img" aria-labelledby="logo"  xmlns="http://www.w3.org/2000/svg" width="45" height="21" viewBox="0 0 45 21"><title id="logo">Ableton Homepage</title><path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path></svg>
                 </div>
             </div>
         </div>

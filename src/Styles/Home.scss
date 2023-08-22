@@ -28,7 +28,8 @@
                 padding: 0 20px 0 10px;
             }
             @media (max-width: 850px) {
-                top: 50%;
+                top: 45%;
+                font-size: 110px;
             }
             @media (max-width: 700px) {
                 top: 44%;
@@ -36,6 +37,10 @@
             }
             @media (max-width: 556px) {
                 top: 40%;
+                font-size: 90px;
+            }
+            @media (max-width: 500px) {
+                top: 36%;
                 font-size: 90px;
             }
         }

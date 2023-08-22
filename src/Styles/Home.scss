@@ -44,11 +44,15 @@
                 font-size: 90px;
             }
             @media (max-width: 425px) {
-                
+                top: 45%;
                 font-size: 70px;
             }
+            @media (max-width: 375px) {
+                top: 43%;
+                font-size: 60px;
+            }
             @media (max-width: 320px) {
-                top: 40%;
+                top: 47%;
                 font-size: 60px;
             }
         }

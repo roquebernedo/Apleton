@@ -26,11 +26,7 @@ const Home = () => {
     {value: "Español", label: "Español"}
   ]
 
-  const screenWidth = window.innerWidth;
-const screenHeight = window.innerHeight;
 
-console.log("Ancho de la pantalla: " + screenWidth);
-console.log("Altura de la pantalla: " + screenHeight);
 
   return (
     <div className='home'>

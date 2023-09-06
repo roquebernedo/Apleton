@@ -1,0 +1,263 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    height: 800px;
+    max-width: 100%;
+    
+    .foot-aple{
+        display: flex;
+        font-size: 55px;
+        font-weight: 600;
+        padding-top: 80px;
+        opacity: 0.9;
+        width: 1300px;
+        max-width: 90%;
+    }
+
+    .foot-info{
+        display: flex;
+        flex-direction: row;
+        width: 1300px;
+        font-size: 18px;
+        padding-top: 80px;
+        line-height: 1.6;
+        max-width: 90%;
+        @media (max-width: 1047px) {
+            font-size: 16px;
+        }
+        @media (max-width: 1047px) {
+            flex-direction: column;
+            gap: 30px;
+        }
+        @media (max-width: 556px) {
+            max-width: 90%;
+            font-size: 15px;
+            flex-direction: column;
+        }
+
+        .register{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            max-width: 90%;
+            @media (max-width: 1229px) {
+                width: 30%;
+            }
+            @media (max-width: 755px) {
+                width: 50%;
+            }
+            @media (max-width: 556px) {
+                width: 50%;
+            }
+
+            .icons{
+                padding-top: 10px;
+                max-width: 100%;
+                .icon{
+                    text-decoration: none;
+                    color: #00cdac;
+                    padding-right: 20px;
+                    font-size: 30px;
+                }
+
+                .face{
+                    color: #2c63ca;
+                }
+
+                .twi{
+                    color: rgb(89, 171, 204);
+                }
+
+                .you{
+                    color: rgb(212, 73, 73);
+                }
+
+                .ins{
+                    color: #db632b;
+                }
+            }
+        }
+
+        .education{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            max-width: 70%;
+            @media (max-width: 1229px) {
+                width: 30%;
+            }
+            @media (max-width: 1024px) {
+                width: 60%;
+            }
+            @media (max-width: 556px) {
+                width: 70%;
+                margin-top: 40px;
+            }
+
+                .chooser{
+                    font-family: "Nunito Sans", sans-serif;
+                    width: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px;
+                    background-color: #b6ffc0;
+                }
+
+                
+            
+        }
+
+        .sign-up{
+            width: 40%;
+            max-width: 70%;
+            @media (max-width: 1229px) {
+                width: 40%;
+            }
+            @media (max-width: 556px) {
+                width: 100%;
+                margin-top: 40px;
+            }
+
+            .regis{
+                display: flex;
+                flex-direction: row;
+                padding-top: 15px;
+
+                .email{
+                    border: none;
+                    background-color: #b6ffc0;
+                    padding: 10px 200px 10px 10px;
+                    font-size: 15px;
+                    font-family: "Nunito Sans", sans-serif;
+                    @media (max-width: 1229px) {
+                        max-width: 90%;
+                        font-size: 13px;
+                        padding: 10px 150px 10px 10px;
+                    }
+                    @media (max-width: 556px) {
+                        max-width: 50%;
+                    }
+                    @media (max-width: 320px) {
+                        max-width: 40%;
+                    }
+                }
+
+                .sign{
+                    width: 100px;
+                    text-align: center;
+                    border: none;
+                    font-family: "Nunito Sans", sans-serif;
+                    color: white;
+                    background-color: #2c63ca;
+                    font-weight: bold;
+                    font-size: 15px;
+                    @media (max-width: 1229px) {
+                        max-width: 90%;
+                        font-size: 13px;
+                    }
+                    @media (max-width: 320px) {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+
+        .foot-link{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .foot-info2{
+        display: flex;
+        width: 1300px;
+        font-size: 18px;
+        padding-top: 80px;
+        line-height: 1.6;
+        max-width: 90%;
+        @media (max-width: 1047px) {
+            flex-direction: column;
+            gap: 30px;
+            font-size: 16px;
+        }
+        @media (max-width: 556px) {
+            margin-top: 10px;
+            font-size: 15px;
+            flex-direction: column;
+        }
+
+        .find{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            @media (max-width: 728px) {
+                width: 50%;
+            }
+
+            .foot-link{
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        .language{
+            display: flex;
+            flex-direction: column;
+            @media (max-width: 556px) {
+                margin-top: 40px;
+                
+            }
+
+                .chooser{
+                    font-family: "Nunito Sans", sans-serif;
+                    width: 120px;
+                    height: 15px;
+                    
+                    font-size: 15px;
+                }
+        }
+    }
+
+    .made{
+        display: flex;
+        flex-direction: row;
+        padding: 80px 0 50px 0;
+        justify-content: space-between;
+        width: 1300px;
+       
+        font-size: 13px;
+        font-weight: 500;
+        max-width: 90%;
+        
+        @media (max-width: 1024px) {
+            flex-direction: column;
+         
+            
+        }
+        @media (max-width: 556px) {
+            flex-direction: column;
+            padding-bottom: 20px;
+        }
+
+        .information{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            @media (max-width: 1024px) {
+                flex-direction: column;
+            }
+            @media (max-width: 556px) {
+                flex-direction: column;
+            }
+        }
+
+        .berlin{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+    }
+}
